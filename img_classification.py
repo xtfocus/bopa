@@ -13,7 +13,7 @@ def predict(image):
     )
     x = np.stack([x])
 
-    predict = learn_if.predict(x)     
+    predict = learn_inf.predict(x)     
     idx = list(predict[0]).index(max(predict[0]))
     
     for i in label_map.keys():

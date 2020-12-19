@@ -10,4 +10,4 @@ if uploaded_file is not None:
     st.image(image, caption='Your pic', use_column_width=True)
     st.write("Classifying. . .")
     label = predict(image)
-    st.write("This is", label)
+    st.write("I think this is", label,'!!!')
