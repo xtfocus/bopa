@@ -2,7 +2,7 @@ from img_classification import predict
 from PIL import Image
 import streamlit as st
 import numpy as np
-import keras
+from tensorflow import keras
 
 uploaded_file = st.file_uploader("Show your fruit (banana, orange, apple or peach only)", type="jpg")
 if uploaded_file is not None:
