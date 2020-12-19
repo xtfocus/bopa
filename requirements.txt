@@ -1,0 +1,4 @@
+numpy==1.19.0
+streamlit==0.73.0
+PIL==7.2.0
+fastbook==0.0.16
