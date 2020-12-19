@@ -5,7 +5,7 @@ def predict(image):
     
     label_map = {'apple': 0, 'banana': 1, 'orange': 2, 'peach': 3}
     
-    learn_inf = keras.models.load_model('fruits_model')
+    learn_inf = keras.models.load_model('fruits_model_2')
     
     x = np.array(image)
     x = keras.applications.vgg16.preprocess_input(
