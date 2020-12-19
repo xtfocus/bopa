@@ -7,6 +7,6 @@ uploaded_file = st.file_uploader("Show your fruit (banana, orange, apple or peac
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='Your pic', use_column_width=True)
-    st.write("")
+    st.write("Classifying. . .")
     label = predict(array(image))
     st.write("This is", label)
