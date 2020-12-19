@@ -7,10 +7,10 @@ def predict(image):
     
     learn_inf = keras.models.load_model('fruits_model_2')
     
-    x = np.array(image)
-    x = keras.applications.vgg16.preprocess_input(
-        x, data_format=None
-    )
+    x = np.array(image) / 255.
+#     x = keras.applications.vgg16.preprocess_input(
+#         x, data_format=None
+#     )
     x = np.stack([x])
 
     predict = learn_inf.predict(x)     
