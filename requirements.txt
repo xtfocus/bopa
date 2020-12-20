@@ -1,4 +1,5 @@
 numpy
+pytorch-cpu
 streamlit==0.73.0
 pillow==7.2.0
-tensorflow==2.0.0
+fastai==1.0.61
