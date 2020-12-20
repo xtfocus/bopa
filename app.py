@@ -2,7 +2,7 @@ from img_classification import predict
 from PIL import Image
 import streamlit as st
 from numpy import array
-from fastbook import *
+# from fastbook import *
 from fastai.vision.widgets import *
 
 # from tensorflow import keras
