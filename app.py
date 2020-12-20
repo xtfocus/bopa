@@ -3,7 +3,7 @@ from PIL import Image
 import streamlit as st
 from numpy import array
 # from fastbook import *
-from fastai.vision.widgets import *
+# from fastai.vision.widgets import *
 
 # from tensorflow import keras
 
