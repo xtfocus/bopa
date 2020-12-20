@@ -7,7 +7,7 @@ from numpy import array
 def predict(image):
     
 #     label_map = {'apple': 0, 'banana': 1, 'orange': 2, 'peach': 3}
-    learn_inf = load_learner('fruits.pkl')
+    learn_inf = load_learner(path='.')
     vocab = learn_inf.dls.vocab
     dict(zip(vocab, range(len(vocab))))
     
