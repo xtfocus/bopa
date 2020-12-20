@@ -4,6 +4,7 @@ import streamlit as st
 from numpy import array
 from fastbook import *
 from fastai.vision.widgets import *
+
 # from tensorflow import keras
 
 uploaded_file = st.file_uploader("Show your fruit (banana, orange, apple or peach only)", type="jpg")

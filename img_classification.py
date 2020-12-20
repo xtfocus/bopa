@@ -1,6 +1,6 @@
 # from tensorflow import keras
 # from fastai.vision.widgets import *
-from fastai.basics import load_learner
+from fastai.basic_train import load_learner
 # from fastbook import load_learner
 from numpy import array
 
