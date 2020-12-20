@@ -1,5 +1,6 @@
 numpy
-http://download.pytorch.org/whl/cpu/torch-1.0.0-cp37-cp37m-win_amd64.whl
+http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
+fastbook
 streamlit==0.73.0
 pillow==7.2.0
 fastai==2.1.8
